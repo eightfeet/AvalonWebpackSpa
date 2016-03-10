@@ -1,0 +1,2 @@
+/*! v0.1 Thu Mar 10 2016 11:49:36 GMT+0800 (CST) auth by eightfeet */
+webpackJsonp([3],{8:function(o,n,e){var t,l;t=[e(3)],l=function(o){var n=o.define({$id:"a",p:[],name:"",backtap:function(){console.log(n.name),window.history.back()}});return console.log(),o.controller(function(e){e.$vmodels=[n],e.$onEnter=function(){console.log("进入页面！"),o.vmodels.test.pagetit="访问首页！！"},e.$onBeforeUnload=function(){console.log("页面卸载！"),o.vmodels.test.pagetit="访问下一个页面！！"},e.$onRendered=function(){console.log("页面渲染完成！")}})}.apply(n,t),!(void 0!==l&&(o.exports=l))}});
